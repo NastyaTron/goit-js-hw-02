@@ -1,7 +1,7 @@
 function checkForSpam(message) {
   const normalizedMessage = message.toLowerCase();
-  const checkForSpam =
-    normalizedMessage.includes(`spam`) || normalizedMessage.includes(`sale`);
+  return (isSpam =
+    normalizedMessage.includes(`spam`) || normalizedMessage.includes(`sale`));
 }
 
 console.log(checkForSpam('Latest technology news')); // false
